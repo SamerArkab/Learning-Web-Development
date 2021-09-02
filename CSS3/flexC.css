@@ -1,0 +1,31 @@
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  align-items:flex-end;
+  align-content:center;
+}
+
+.container {
+  background-color: coral;
+  border: 10px solid black;
+}
+
+.box{
+  background-color: lightblue;
+  padding: 5px 10px 10px 5px;
+  margin: 10px 20px 20px 10px;
+  width: 120px;
+  height: 120px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.box2{
+  background-color: lightblue;
+  padding: 5px 10px 10px 5px;
+  margin: 10px 20px 20px 10px;
+  width: 120px;
+  height: 80px;
+  box-shadow: 2px 2px 2px black;
+}

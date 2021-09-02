@@ -1,0 +1,21 @@
+body{
+  background-color:grey;
+}
+main{
+  color:cyan;
+}
+
+#first-para{
+  color:red;
+  background-color:black;
+  height:100px;
+  width:300px;
+}
+
+.yellow-border{
+  border:3px dashed yellow;
+}
+
+.blue-text{
+  color:blue;
+}

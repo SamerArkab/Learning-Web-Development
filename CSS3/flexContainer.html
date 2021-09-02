@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Practice css flex container">
+    <meta name="author" content="Samr">
+    <meta name="keywords" contents="css, practice, new, learn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex Container Practice</title>
+
+<!--
+  Flex containers is basically a layout which contains many items\elements
+  they're interacting with each other in a way that, for example, if the user
+  shrinks the screen size, all the items will respond and reorganize themselves.
+  -->
+
+    <link rel="stylesheet" href="flexC.css"/>
+  </head>
+  <body>
+    <header></header>
+    <main>
+
+      <div class="flex-container container">
+        <div style="align-item: flex-start;" class="box flex-item"><h1>1</h1></div>
+        <div class="box2 flex-item"><h1>2</h1></div>
+        <div class="box flex-item"><h1>3</h1></div>
+        <!-- possible to control as an individual element as well, for example -->
+        <div style="align-self:center;"class="box2 flex-item"><h1>4</h1></div>
+        <div class="box flex-item"><h1>5</h1></div>
+      </div>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>

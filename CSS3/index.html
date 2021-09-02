@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Practice css inline styling">
+    <meta name="author" content="Samr">
+    <meta name="keywords" contents="css, practice, new, learn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inline Styling Practice</title>
+  </head>
+  <body> <!--Styles added to the "body", for example, will be inherited by it's children
+            (header, main, etc.) but adding a style to a child will override the parent style  -->
+    <header>
+      <h1>CSS First Step</h1>
+    </header>
+    <main>
+      <!-- use pixels (px) for size measurement so it would adjust depending on dif screens
+          "color", "font-size", etc. these are the attributes  -->
+      <p style="color: blue; font-size: 15px">Practicing inline styling.</p>
+      <!-- width will limit the borders width (100px for example)...
+          can use percentage to fill screen as well
+          max-width will limit the width... -->
+      <p style="border: 1px solid cyan; width: 20%; max-width: 200px; background-color: black; color: white">More practice</p>
+    </main>
+    <footer></footer>
+  </body>
+</html>

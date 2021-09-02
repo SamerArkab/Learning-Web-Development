@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Practice css positioning">
+    <meta name="author" content="Samr">
+    <meta name="keywords" contents="css, practice, new, learn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Practice</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+<!-- relative positioning positions an elements relatively to where it's supposed to be
+    meaning, for example, 10px below where it's supposed to be by default
+    after position:relative, we use top\left\right\bottom
+    so, using top:20px, will position the element 20px FROM the default top (below it)-->
+      <div style="position:relative; top:20px; left:10px; width:90px; height:90px; background-color:blue"></div>
+    <!-- position:absolute will position the element relatively to the document, so
+      if we use top:0px; left:0px; the element will move to the top left corner of the whole
+      document, so position absolute is like taking the element out of the document flow
+      and positioning it sort of manually -->
+      <div style="position:absolute; top:0px; left:0px; width:100px; height:100px; background-color:red"></div>
+      <!-- position:fixed will make the element stick to a certain position (for example,
+        the "go to the top of the page" button which stays in same place even when scrolling)-->
+
+      <!-- position:static will not do anything special and will position the element according
+        to the flow of the page -->
+
+      <!-- there's another position:sticky which is kind of a mix of relative and fixed positioning-->
+
+    </main>
+    <footer></footer>
+  </body>
+</html>

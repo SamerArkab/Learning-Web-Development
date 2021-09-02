@@ -1,0 +1,18 @@
+@keyframes change-color{
+  from{
+    background-color: salmon;
+  }
+  to{
+    background-color: cyan;
+    top:50px;
+    bottom:50px;
+    left:50px;
+  }
+}
+
+.box-animation:hover{
+  position:relative;
+  animation-name: change-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
